@@ -190,6 +190,7 @@ export class SignInPage extends React.Component {
                             {(formikProps) => (
                                 <StyledForm onSubmit={formikProps.handleSubmit} id="signInForm">
                                     <TextInput
+                                        id="test-username"
                                         name="username"
                                         type="text"
                                         leftIcon="person"
@@ -199,6 +200,7 @@ export class SignInPage extends React.Component {
                                         fill
                                     />
                                     <TextInput
+                                        id="test-password"
                                         name="password"
                                         type="password"
                                         leftIcon="lock"
